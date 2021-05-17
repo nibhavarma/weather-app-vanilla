@@ -33,6 +33,11 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.title {
+  text-align: center;
+  margin: 20px;
+}
+
 .weather-app-border {
   padding: 20px;
   border: 1px solid blue;
