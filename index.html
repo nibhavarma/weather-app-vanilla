@@ -42,28 +42,31 @@
           </form>
           <h1 id="city"></h1>
           <ul>
-            <li>Last updated at <span id="date"></span></li>
-            <li id="description"></li>
+            <li id="title2">Current Temperature on <span id="date"></span></li>
           </ul>
-          <div class="row">
-            <div class="col-6">
-              <div class="clearfix weather-temperature">
-                <img src="" alt="Clear" id="icon" class="float-left" />
-                <div class="float-left">
-                  <strong id="temperature"></strong
-                  ><span class="units"> °C </span>
-                </div>
-              </div>
-            </div>
 
-            <div class="col-6">
+          <div class="row">
+            <div class="col-3">
               <ul>
-                <li>Humidity <span id="humidity">72</span>%</li>
-                <li>Wind <span id="wind">24</span> km/h</li>
+                <li id="description"></li>
+                <li>Humidity: <span id="humidity">72</span>%</li>
+                <li>Wind: <span id="wind">24</span> km/h</li>
               </ul>
             </div>
           </div>
+
+          <div class="col-3">
+            <div class="clearfix weather-temperature">
+              <img src="" alt="Clear" id="icon" class="float-none" />
+              <div class="float-none">
+                <strong id="temperature"></strong
+                ><span class="units"> °C </span>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <span class="title">Future Forecast (Hi/Lo)</span>
         <div class="weather-forecast" id="forecast"></div>
       </div>
       <small>

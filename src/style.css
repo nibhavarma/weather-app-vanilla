@@ -1,14 +1,18 @@
 body {
   font-family: arial, sans-serif;
+  background: url(https://images.theconversation.com/files/18108/original/rffw88nr-1354076846.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip);
+  background-repeat: none;
+  background-size: 1440px;
 }
 
 h1 {
-  color: rgb(32, 33, 36);
+  color: white;
   display: inline-block;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 0;
+  font-family: "Lucida" Grande, sans-serif;
 }
 
 ul {
@@ -26,31 +30,39 @@ li {
   line-height: 19px;
 }
 
-a {
-  text-decoration: none;
-}
 li:first-letter {
   text-transform: capitalize;
 }
-
-.title {
-  text-align: center;
-  margin: 20px;
+a,
+small {
+  color: whitesmoke;
+}
+a {
+  text-decoration: underline;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px;
 }
 
 .weather-app-border {
   padding: 20px;
   border: 1px solid blue;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 800px;
 }
 .weather-app {
   max-width: 60px;
   margin: 30px auto;
 }
 
-.float-left strong {
-  color: rgb(32, 33, 36);
+.float-none strong {
+  font-family: "Lucida" Grande, sans-serif;
+  color: whitesmoke;
   font-size: 64px;
   line-height: 1;
 }
@@ -61,19 +73,23 @@ li:first-letter {
   text-decoration: none;
 }
 
+.units,
+li {
+  color: whitesmoke;
+}
 .weather-temperature img {
   margin-right: 60px;
   height: 100px;
   width: 100px;
 }
 .weather-temperature strong {
-  color: rgb(32, 33, 36);
+  color: whitesmoke;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
 }
 .weather-temperature .active {
-  color: rgb(32, 33, 36);
+  color: whitesmoke;
   cursor: default;
 }
 
@@ -84,18 +100,28 @@ li:first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color: whitesmoke;
 }
 
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 30px;
   opacity: 0.6;
 }
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
+  font-size: 20px;
 }
 
 .weather-forecast-temperature {
-  font-size: 13px;
+  font-size: 20px;
+}
+
+.title,
+.title2 {
+  text-align: center;
+  margin: 0px;
+  margin-top: 15px;
+  color: whitesmoke;
+  display: inline-block;
 }
