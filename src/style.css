@@ -36,6 +36,8 @@ li:first-letter {
 a,
 small {
   color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 a {
   text-decoration: underline;
@@ -124,4 +126,12 @@ li {
   margin-top: 15px;
   color: whitesmoke;
   display: inline-block;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-text {
+  background: darkblue;
 }
