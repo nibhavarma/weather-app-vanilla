@@ -17,8 +17,8 @@ function formatDate(timestamp) {
     "Friday",
     "Saturday",
   ];
-  let day = days[date.getDay()];
-  return `${day} at ${hours}:${minutes}:`;
+  let today = new Date().toISOString().slice(0, 10);
+  return `${today} Time: ${hours}:${minutes}:`;
 }
 
 function formatDay(timestamp) {
